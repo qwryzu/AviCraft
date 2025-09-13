@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "avicraft",
+	"version": "${version}",
+	"name": "AviCraft",
+	"description": "This is a bird mod by qwryzu",
+	"authors": [
+		"qwryzu"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/avicraft/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.qwryzu.avicraft.AviCraft"
+		],
+		"fabric-datagen": [
+			"net.qwryzu.avicraft.AviCraftDataGenerator"
+		],
+        "client": [
+            "net.qwryzu.avicraft.AviCraftClient"
+        ]
+	},
+	"mixins": [
+		"avicraft.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.8",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

@@ -1,0 +1,38 @@
+/summon tutorialmod:audubonswarbler
+/summon tutorialmod:audubonswarbler 10
+/summon tutorialmod:audubonswarbler
+/kill @e[type=all]
+/kill @e
+/summon tutorialmod:audubonswarbler
+/kill @e[type=tutorialmod:audubonswarbler]
+/summon tutorialmod:audubonswarbler 10
+/summon tutorialmod:audubonswarbler
+/summon avicraft:audubons_warbler
+/summon avicraft:black_throated_blue_warbler
+/summon avicraft:audubons_warbler
+/kill @e[type=avicraft:audubons_warbler]
+/kill @e[type=avicraft:black_throated_blue_warbler]
+/summon black_throated_blue_warbler
+/summon avicraft:black_throated_blue_warblerd_blue_warbler
+/summon avicraft:black_throated_blue_warbler
+/summon avicraft:audubons_warbler
+/kill @e[distance=30]
+/kill @e[distance=1]
+/kill @e[distance=100]
+/kill @e[type=avicraft:audubons_warbler]
+/kill @e[type=avicraft:black_throated_blue_warbler
+/kill @e[type=avicraft:black_throated_blue_warbler]
+/time set day
+/summon avicraft:audubons_warbler
+/summon avicraft:magnolia_warbler
+/kill @e[type=!#c:bosses]
+/summon avicraft:red_faced_warbler
+/summon avicraft:yellow_warbler
+/summon avicraft:audubons_warbler
+/summon avi
+/summon avicraft:black_throated_blue_warbler
+/summon avicraft:magnolia_warbler
+/summon avicraft:red
+/summon avicraft:red_faced_warbler
+/summon avicraft:
+/summon avicraft:black_throated_blue_warbler
