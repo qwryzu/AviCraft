@@ -5,10 +5,12 @@ import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.passive.PassiveEntity;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
 import net.qwryzu.avicraft.AviCraft;
 import net.qwryzu.avicraft.entity.AviCraftEntities;
+import net.qwryzu.avicraft.sound.AviCraftSounds;
 import org.jetbrains.annotations.Nullable;
 
 public class RedFacedWarblerEntity extends WarblerEntity {
@@ -28,5 +30,9 @@ public class RedFacedWarblerEntity extends WarblerEntity {
     @Override
     public RedFacedWarblerEntity createChild(ServerWorld serverWorld, PassiveEntity passiveEntity) {
         return AviCraftEntities.REDFACEDWARBLER.create(serverWorld, SpawnReason.BREEDING);
+    }
+
+    protected SoundEvent getWarblerSong() {
+        return null;
     }
 }

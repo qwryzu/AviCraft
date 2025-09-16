@@ -7,6 +7,8 @@ import net.qwryzu.avicraft.entity.AviCraftEntities;
 import net.qwryzu.avicraft.entity.client.WarblerModel;
 import net.qwryzu.avicraft.entity.client.WarblerRenderer;
 
+import javax.swing.text.html.parser.Entity;
+
 public class AviCraftClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
@@ -19,6 +21,9 @@ public class AviCraftClient implements ClientModInitializer {
         EntityRendererRegistry.register(AviCraftEntities.MAGNOLIAWARBLER, WarblerRenderer::new);
         EntityRendererRegistry.register(AviCraftEntities.REDFACEDWARBLER, WarblerRenderer::new);
         EntityRendererRegistry.register(AviCraftEntities.YELLOWWARBLER, WarblerRenderer::new);
-
+        EntityRendererRegistry.register(AviCraftEntities.MANGROVEWARBLER, WarblerRenderer::new);
+        EntityRendererRegistry.register(AviCraftEntities.MYRTLESWARBLER, WarblerRenderer::new);
+        EntityRendererRegistry.register(AviCraftEntities.AMERICANREDSTART, WarblerRenderer::new);
+        EntityRendererRegistry.register(AviCraftEntities.PAINTEDREDSTART, WarblerRenderer::new);
     }
 }

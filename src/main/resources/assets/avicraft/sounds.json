@@ -1,0 +1,29 @@
+{
+  "audubons_warbler_song": {
+    "subtitle": "sounds.avicraft.audubons_warbler_song",
+    "sounds": [
+      {
+        "name": "avicraft:audubons_warbler_song",
+        "stream": false
+      }
+    ]
+  },
+  "black_throated_blue_warbler_song": {
+    "subtitle": "sounds.avicraft.black_throated_blue_warbler_song",
+    "sounds": [
+      {
+        "name": "avicraft:black_throated_blue_warbler_song",
+        "stream": false
+      }
+    ]
+  },
+  "yellow_warbler_song": {
+    "subtitle": "sounds.avicraft.yellow_warbler_song",
+    "sounds": [
+      {
+        "name": "avicraft:yellow_warbler_song",
+        "stream": false
+      }
+    ]
+  }
+}

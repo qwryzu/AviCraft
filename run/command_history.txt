@@ -1,38 +1,50 @@
-/summon tutorialmod:audubonswarbler
-/summon tutorialmod:audubonswarbler 10
-/summon tutorialmod:audubonswarbler
-/kill @e[type=all]
-/kill @e
-/summon tutorialmod:audubonswarbler
-/kill @e[type=tutorialmod:audubonswarbler]
-/summon tutorialmod:audubonswarbler 10
-/summon tutorialmod:audubonswarbler
-/summon avicraft:audubons_warbler
-/summon avicraft:black_throated_blue_warbler
-/summon avicraft:audubons_warbler
-/kill @e[type=avicraft:audubons_warbler]
-/kill @e[type=avicraft:black_throated_blue_warbler]
-/summon black_throated_blue_warbler
-/summon avicraft:black_throated_blue_warblerd_blue_warbler
-/summon avicraft:black_throated_blue_warbler
-/summon avicraft:audubons_warbler
-/kill @e[distance=30]
-/kill @e[distance=1]
-/kill @e[distance=100]
-/kill @e[type=avicraft:audubons_warbler]
-/kill @e[type=avicraft:black_throated_blue_warbler
-/kill @e[type=avicraft:black_throated_blue_warbler]
-/time set day
-/summon avicraft:audubons_warbler
 /summon avicraft:magnolia_warbler
-/kill @e[type=!#c:bosses]
+/summon ocelot
 /summon avicraft:red_faced_warbler
+/gamemode survival
 /summon avicraft:yellow_warbler
-/summon avicraft:audubons_warbler
-/summon avi
+/gamemode survival
+/summon avicraft:yellow_warbler
+/gamemode survival
+/summon avicraft:yellow_warbler
+/kill @e[type=avicraft:yellow_warbler]
+/summon avic
 /summon avicraft:black_throated_blue_warbler
-/summon avicraft:magnolia_warbler
-/summon avicraft:red
-/summon avicraft:red_faced_warbler
+/summon avicraft:yellow_warbler
+/seed
+/tp 13814 100 -1700
+/tp qwryzu avicraft:mangrove_warbler
+/summon avicraft:mangrove_warbler
 /summon avicraft:
 /summon avicraft:black_throated_blue_warbler
+/summon avicraft:yellow_warbler
+/time set 23500
+/time set 0
+/kill @e[type=avicraft:yellow_warbler]
+/summon avicraft:yellow_warbler
+/time set 23500
+/summon avicraft:yellow_warbler
+/time set 23500
+/summon avicraft:yellow_warbler
+/time set 13000
+/summon avicraft:black_throated_blue_warbler
+/time set 11500
+/summon avicraft:yellow_warbler
+/summon avicraft:black_throated_blue_warbler
+/summon avicraft:audubons_warbler
+/time query
+/time query daytime
+/time query gametime
+/time query day
+/time query daytime
+/time query daytimet
+/summon avicraft:audubons_warbler
+/time set 3000
+/summon avicraft:audubons_warbler
+/summon avicraft:blac
+/summon avicraft:black_throated_blue_warbler
+/summon avicraft:yellow_warbler
+/summon avicraft:red_faced_warbler
+/time set 3000
+/summon avicraft:yellow_warbler
+/time set 23500

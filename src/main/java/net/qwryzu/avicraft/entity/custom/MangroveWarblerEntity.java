@@ -10,16 +10,13 @@ import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
 import net.qwryzu.avicraft.AviCraft;
 import net.qwryzu.avicraft.entity.AviCraftEntities;
-import net.qwryzu.avicraft.sound.AviCraftSounds;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.Random;
-
-public class AudubonsWarblerEntity extends WarblerEntity {
-    private static final Identifier TEXTURE = Identifier.of(AviCraft.MOD_ID, "textures/entity/audubonswarbler/audubonswarbler.png");
+public class MangroveWarblerEntity extends WarblerEntity {
+    private static final Identifier TEXTURE  = Identifier.of(AviCraft.MOD_ID,"/textures/entity/mangrovewarbler/mangrovewarbler.png");
 
     // Add the required constructor
-    public AudubonsWarblerEntity(EntityType<? extends AnimalEntity> entityType, World world) {
+    public MangroveWarblerEntity(EntityType<? extends AnimalEntity> entityType, World world) {
         super(entityType, world);
     }
 
@@ -30,13 +27,11 @@ public class AudubonsWarblerEntity extends WarblerEntity {
 
     @Nullable
     @Override
-    public AudubonsWarblerEntity createChild(ServerWorld serverWorld, PassiveEntity passiveEntity) {
-        return AviCraftEntities.AUDUBONSWARBLER.create(serverWorld, SpawnReason.BREEDING);
+    public MangroveWarblerEntity createChild(ServerWorld serverWorld, PassiveEntity passiveEntity) {
+        return AviCraftEntities.MANGROVEWARBLER.create(serverWorld, SpawnReason.BREEDING);
     }
 
-    @Override
     protected SoundEvent getWarblerSong() {
-        return AviCraftSounds.AUDUBONS_WARBLER_SONG;
+        return null;
     }
 }
-

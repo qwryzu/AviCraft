@@ -5,6 +5,7 @@ import net.minecraft.entity.SpawnReason;
 import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.entity.passive.PassiveEntity;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
 import net.qwryzu.avicraft.AviCraft;
@@ -27,5 +28,9 @@ public class MagnoliaWarblerEntity extends WarblerEntity {
     @Override
     public MagnoliaWarblerEntity createChild(ServerWorld serverWorld, PassiveEntity passiveEntity) {
         return AviCraftEntities.MAGNOLIAWARBLER.create(serverWorld, SpawnReason.BREEDING);
+    }
+
+    protected SoundEvent getWarblerSong() {
+        return null;
     }
 }
