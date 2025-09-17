@@ -206,10 +206,8 @@ public abstract class WarblerEntity extends AnimalEntity {
             // Probability-based singing during other times
             int randomSongDecider = this.random.nextInt(dayTimeSongProbability);
             if (randomSongDecider == 0) {
-                AviCraft.LOGGER.info("Generated " + randomSongDecider + ", playing song");
                 return warblerSong;
             } else {
-                AviCraft.LOGGER.info("Generated " + randomSongDecider + ", not playing song");
                 return null;
             }
         }

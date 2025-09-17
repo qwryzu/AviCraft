@@ -1,27 +1,24 @@
 package net.qwryzu.avicraft.entity.client;
 
-import net.fabricmc.api.EnvType;
-import net.fabricmc.api.Environment;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.entity.animation.Animation;
 import net.minecraft.client.render.entity.model.EntityModel;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
-import net.minecraft.client.render.entity.model.EntityModelPartNames;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.MathHelper;
 import net.qwryzu.avicraft.AviCraft;
 import net.qwryzu.avicraft.render.entity.state.LongBilledCurlewEntityRenderState;
-import net.qwryzu.avicraft.render.entity.state.WarblerEntityRenderState;
 
 public class LongBilledCurlewModel extends EntityModel<LongBilledCurlewEntityRenderState> {
     public static final EntityModelLayer LONG_BILLED_CURLEW_LAYER = new EntityModelLayer(Identifier.of(AviCraft.MOD_ID, "longbilledcurlew"), "main");
     private final Animation idleAnimation;
     private final Animation flappingAnimation;
+    private final Animation takeoffAnimation;
 
     public LongBilledCurlewModel(ModelPart modelPart) {
         super(modelPart);
         this.idleAnimation = LongBilledCurlewAnimations.IDLE.createAnimation(root);
         this.flappingAnimation = LongBilledCurlewAnimations.FLAP.createAnimation(root);
+        this.takeoffAnimation = LongBilledCurlewAnimations.TAKEOFF.createAnimation(root);
     }
 
     public static TexturedModelData getTexturedModelData() {

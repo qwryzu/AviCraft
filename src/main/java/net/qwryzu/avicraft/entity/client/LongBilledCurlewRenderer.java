@@ -5,6 +5,7 @@ import net.fabricmc.api.Environment;
 import net.minecraft.client.model.ModelPart;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.render.entity.MobEntityRenderer;
+import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.util.Identifier;
 import net.qwryzu.avicraft.entity.custom.shorebirds.LongBilledCurlewEntity;
 import net.qwryzu.avicraft.render.entity.state.LongBilledCurlewEntityRenderState;
@@ -47,5 +48,6 @@ public class LongBilledCurlewRenderer<T extends LongBilledCurlewEntity> extends 
         // Update animation states
         longBilledCurlewEntityRenderState.idleAnimationState.copyFrom(longBilledCurlewEntity.idleAnimationState);
         longBilledCurlewEntityRenderState.flyingAnimationState.copyFrom(longBilledCurlewEntity.flyingAnimationState);
+        longBilledCurlewEntityRenderState.takeoffAnimationState.copyFrom(longBilledCurlewEntity.takeoffAnimationState);
     }
 }

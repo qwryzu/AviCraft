@@ -11,7 +11,6 @@ import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
 import net.qwryzu.avicraft.AviCraft;
 import net.qwryzu.avicraft.entity.AviCraftEntities;
-import net.qwryzu.avicraft.entity.custom.warblers.AmericanRedstartEntity;
 import org.jetbrains.annotations.Nullable;
 
 public class LongBilledCurlewEntity extends ShorebirdEntity {
