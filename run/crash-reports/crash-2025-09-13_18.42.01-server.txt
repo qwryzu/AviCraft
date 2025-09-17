@@ -5,13 +5,13 @@ Time: 2025-09-13 18:42:01
 Description: Ticking entity
 
 java.lang.ExceptionInInitializerError
-	at knot//net.qwryzu.avicraft.entity.custom.AudubonsWarblerEntity.getAmbientSound(AudubonsWarblerEntity.java:38)
+	at knot//net.qwryzu.avicraft.entity.custom.warblers.AudubonsWarblerEntity.getAmbientSound(AudubonsWarblerEntity.java:38)
 	at knot//net.minecraft.entity.mob.MobEntity.playAmbientSound(MobEntity.java:302)
 	at knot//net.minecraft.entity.mob.MobEntity.baseTick(MobEntity.java:312)
 	at knot//net.minecraft.entity.Entity.tick(Entity.java:723)
 	at knot//net.minecraft.entity.LivingEntity.tick(LivingEntity.java:2644)
 	at knot//net.minecraft.entity.mob.MobEntity.tick(MobEntity.java:367)
-	at knot//net.qwryzu.avicraft.entity.custom.WarblerEntity.tick(WarblerEntity.java:109)
+	at knot//net.qwryzu.avicraft.entity.custom.warblers.WarblerEntity.tick(WarblerEntity.java:109)
 	at knot//net.minecraft.server.world.ServerWorld.tickEntity(ServerWorld.java:801)
 	at knot//net.minecraft.world.World.tickEntity(World.java:582)
 	at knot//net.minecraft.server.world.ServerWorld.method_31420(ServerWorld.java:429)
@@ -39,13 +39,13 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Thread: Server thread
 Stacktrace:
-	at knot//net.qwryzu.avicraft.entity.custom.AudubonsWarblerEntity.getAmbientSound(AudubonsWarblerEntity.java:38)
+	at knot//net.qwryzu.avicraft.entity.custom.warblers.AudubonsWarblerEntity.getAmbientSound(AudubonsWarblerEntity.java:38)
 	at knot//net.minecraft.entity.mob.MobEntity.playAmbientSound(MobEntity.java:302)
 	at knot//net.minecraft.entity.mob.MobEntity.baseTick(MobEntity.java:312)
 	at knot//net.minecraft.entity.Entity.tick(Entity.java:723)
 	at knot//net.minecraft.entity.LivingEntity.tick(LivingEntity.java:2644)
 	at knot//net.minecraft.entity.mob.MobEntity.tick(MobEntity.java:367)
-	at knot//net.qwryzu.avicraft.entity.custom.WarblerEntity.tick(WarblerEntity.java:109)
+	at knot//net.qwryzu.avicraft.entity.custom.warblers.WarblerEntity.tick(WarblerEntity.java:109)
 	at knot//net.minecraft.server.world.ServerWorld.tickEntity(ServerWorld.java:801)
 	at knot//net.minecraft.world.World.tickEntity(World.java:582)
 	at knot//net.minecraft.server.world.ServerWorld.method_31420(ServerWorld.java:429)
@@ -53,7 +53,7 @@ Stacktrace:
 
 -- Entity being ticked --
 Details:
-	Entity Type: avicraft:audubons_warbler (net.qwryzu.avicraft.entity.custom.AudubonsWarblerEntity)
+	Entity Type: avicraft:audubons_warbler (net.qwryzu.avicraft.entity.custom.warblers.AudubonsWarblerEntity)
 	Entity ID: 5
 	Entity Name: Audubon's Warbler
 	Entity's Exact location: -0.07, 68.33, 26.05

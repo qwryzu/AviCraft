@@ -5,7 +5,7 @@ Time: 2025-09-15 11:06:04
 Description: Ticking entity
 
 java.lang.NullPointerException: Cannot invoke "net.minecraft.entity.player.PlayerEntity.getX()" because "target" is null
-	at knot//net.qwryzu.avicraft.entity.custom.WarblerEntity$FleeGoal.canStart(WarblerEntity.java:192)
+	at knot//net.qwryzu.avicraft.entity.custom.warblers.WarblerEntity$FleeGoal.canStart(WarblerEntity.java:192)
 	at knot//net.minecraft.entity.ai.goal.PrioritizedGoal.canStart(PrioritizedGoal.java:22)
 	at knot//net.minecraft.entity.ai.goal.GoalSelector.tick(GoalSelector.java:98)
 	at knot//net.minecraft.entity.mob.MobEntity.tickNewAi(MobEntity.java:695)
@@ -15,7 +15,7 @@ java.lang.NullPointerException: Cannot invoke "net.minecraft.entity.player.Playe
 	at knot//net.minecraft.entity.passive.AnimalEntity.tickMovement(AnimalEntity.java:66)
 	at knot//net.minecraft.entity.LivingEntity.tick(LivingEntity.java:2683)
 	at knot//net.minecraft.entity.mob.MobEntity.tick(MobEntity.java:367)
-	at knot//net.qwryzu.avicraft.entity.custom.WarblerEntity.tick(WarblerEntity.java:117)
+	at knot//net.qwryzu.avicraft.entity.custom.warblers.WarblerEntity.tick(WarblerEntity.java:117)
 	at knot//net.minecraft.server.world.ServerWorld.tickEntity(ServerWorld.java:801)
 	at knot//net.minecraft.world.World.tickEntity(World.java:582)
 	at knot//net.minecraft.server.world.ServerWorld.method_31420(ServerWorld.java:429)
@@ -35,7 +35,7 @@ A detailed walkthrough of the error, its code path and all known details is as f
 -- Head --
 Thread: Server thread
 Stacktrace:
-	at knot//net.qwryzu.avicraft.entity.custom.WarblerEntity$FleeGoal.canStart(WarblerEntity.java:192)
+	at knot//net.qwryzu.avicraft.entity.custom.warblers.WarblerEntity$FleeGoal.canStart(WarblerEntity.java:192)
 	at knot//net.minecraft.entity.ai.goal.PrioritizedGoal.canStart(PrioritizedGoal.java:22)
 	at knot//net.minecraft.entity.ai.goal.GoalSelector.tick(GoalSelector.java:98)
 	at knot//net.minecraft.entity.mob.MobEntity.tickNewAi(MobEntity.java:695)
@@ -45,7 +45,7 @@ Stacktrace:
 	at knot//net.minecraft.entity.passive.AnimalEntity.tickMovement(AnimalEntity.java:66)
 	at knot//net.minecraft.entity.LivingEntity.tick(LivingEntity.java:2683)
 	at knot//net.minecraft.entity.mob.MobEntity.tick(MobEntity.java:367)
-	at knot//net.qwryzu.avicraft.entity.custom.WarblerEntity.tick(WarblerEntity.java:117)
+	at knot//net.qwryzu.avicraft.entity.custom.warblers.WarblerEntity.tick(WarblerEntity.java:117)
 	at knot//net.minecraft.server.world.ServerWorld.tickEntity(ServerWorld.java:801)
 	at knot//net.minecraft.world.World.tickEntity(World.java:582)
 	at knot//net.minecraft.server.world.ServerWorld.method_31420(ServerWorld.java:429)
@@ -53,7 +53,7 @@ Stacktrace:
 
 -- Entity being ticked --
 Details:
-	Entity Type: avicraft:yellow_warbler (net.qwryzu.avicraft.entity.custom.YellowWarblerEntity)
+	Entity Type: avicraft:yellow_warbler (net.qwryzu.avicraft.entity.custom.warblers.YellowWarblerEntity)
 	Entity ID: 1082
 	Entity Name: Yellow Warbler
 	Entity's Exact location: 1.67, 65.75, 30.52

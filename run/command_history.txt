@@ -1,25 +1,3 @@
-/summon avicraft:magnolia_warbler
-/summon ocelot
-/summon avicraft:red_faced_warbler
-/gamemode survival
-/summon avicraft:yellow_warbler
-/gamemode survival
-/summon avicraft:yellow_warbler
-/gamemode survival
-/summon avicraft:yellow_warbler
-/kill @e[type=avicraft:yellow_warbler]
-/summon avic
-/summon avicraft:black_throated_blue_warbler
-/summon avicraft:yellow_warbler
-/seed
-/tp 13814 100 -1700
-/tp qwryzu avicraft:mangrove_warbler
-/summon avicraft:mangrove_warbler
-/summon avicraft:
-/summon avicraft:black_throated_blue_warbler
-/summon avicraft:yellow_warbler
-/time set 23500
-/time set 0
 /kill @e[type=avicraft:yellow_warbler]
 /summon avicraft:yellow_warbler
 /time set 23500
@@ -48,3 +26,25 @@
 /time set 3000
 /summon avicraft:yellow_warbler
 /time set 23500
+/summon avicraft:myrtles_warbler
+/summon avicraft:audubons_warbler
+/summon avicraft:painted_redstart
+/summon avicraft:american_redstart
+/summon avicraft:myrtle_warbler
+/time set 0
+/summon avicraft:red_faced_warbler
+/time set 0
+/summon avicraft:painted_redstart
+/time set 0
+/summon avicraft:magnolia_warbler
+/summon avicraft:american_redstart
+/summon avicraft:
+/summon avicraft:american_redstart
+/summon avicraft:painted_redstart
+/summon avicraft:yellow_warbler
+/summon avicraft:yellow_warblert
+/summon avicraft:yellow_warbler
+/summon avicraft:
+/summon avicraft:long_billed_curlew
+/summon avicraft
+/summon avicraft:long_billed_curlew

@@ -6,7 +6,7 @@ import net.minecraft.client.model.ModelPart;
 import net.minecraft.client.render.entity.EntityRendererFactory;
 import net.minecraft.client.render.entity.MobEntityRenderer;
 import net.minecraft.util.Identifier;
-import net.qwryzu.avicraft.entity.custom.WarblerEntity;
+import net.qwryzu.avicraft.entity.custom.warblers.WarblerEntity;
 import net.qwryzu.avicraft.render.entity.state.WarblerEntityRenderState;
 
 @Environment(EnvType.CLIENT)
@@ -17,14 +17,11 @@ public class WarblerRenderer<T extends WarblerEntity> extends MobEntityRenderer<
     }
 
     private static WarblerModel createModel(EntityRendererFactory.Context context) {
-        System.out.println("=== CREATING MODEL FOR WARBLER RENDERER ===");
-
         try {
             ModelPart modelPart = context.getPart(WarblerModel.WARBLER_LAYER);
             WarblerModel model = new WarblerModel(modelPart);
             return model;
         } catch (Exception e) {
-            System.err.println("=== ERROR CREATING WARBLER MODEL ===");
             System.err.println("Error type: " + e.getClass().getSimpleName());
             System.err.println("Error message: " + e.getMessage());
             e.printStackTrace();

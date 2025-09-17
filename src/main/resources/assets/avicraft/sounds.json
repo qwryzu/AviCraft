@@ -25,5 +25,50 @@
         "stream": false
       }
     ]
+  },
+  "myrtle_warbler_song": {
+    "subtitle": "sounds.avicraft.myrtle_warbler_song",
+    "sounds": [
+      {
+        "name": "avicraft:myrtle_warbler_song",
+        "stream": false
+      }
+    ]
+  },
+  "red_faced_warbler_song": {
+    "subtitle": "sounds.avicraft.red_faced_warbler_song",
+    "sounds": [
+      {
+        "name": "avicraft:red_faced_warbler_song",
+        "stream": false
+      }
+    ]
+  },
+  "magnolia_warbler_song": {
+    "subtitle": "sounds.avicraft.magnolia_warbler_song",
+    "sounds": [
+      {
+        "name": "avicraft:magnolia_warbler_song",
+        "stream": false
+      }
+    ]
+  },
+  "painted_redstart_song": {
+    "subtitle": "sounds.avicraft.painted_redstart_song",
+    "sounds": [
+      {
+        "name": "avicraft:painted_redstart_song",
+        "stream": false
+      }
+    ]
+  },
+  "american_redstart_song": {
+    "subtitle": "sounds.avicraft.american_redstart_song",
+    "sounds": [
+      {
+        "name": "avicraft:american_redstart_song",
+        "stream": false
+      }
+    ]
   }
 }

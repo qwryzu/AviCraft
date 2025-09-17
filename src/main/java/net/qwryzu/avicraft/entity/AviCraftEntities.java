@@ -9,7 +9,8 @@ import net.minecraft.registry.RegistryKeys;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
 import net.qwryzu.avicraft.AviCraft;
-import net.qwryzu.avicraft.entity.custom.*;
+import net.qwryzu.avicraft.entity.custom.shorebirds.LongBilledCurlewEntity;
+import net.qwryzu.avicraft.entity.custom.warblers.*;
 
 public class AviCraftEntities {
     public static final EntityType<AudubonsWarblerEntity> AUDUBONSWARBLER = Registry.register(Registries.ENTITY_TYPE,
@@ -48,11 +49,11 @@ public class AviCraftEntities {
                     .dimensions(1.0f, 0.6f)
                     .build(RegistryKey.of(RegistryKeys.ENTITY_TYPE, Identifier.of(AviCraft.MOD_ID, "mangrove_warbler"))));
 
-    public static final EntityType<MyrtlesWarblerEntity> MYRTLESWARBLER = Registry.register(Registries.ENTITY_TYPE,
-            Identifier.of(AviCraft.MOD_ID, "myrtles_warbler"),
-            EntityType.Builder.create((EntityType<MyrtlesWarblerEntity> entityType, World world) -> new MyrtlesWarblerEntity(entityType, world), SpawnGroup.CREATURE)
+    public static final EntityType<MyrtleWarblerEntity> MYRTLEWARBLER = Registry.register(Registries.ENTITY_TYPE,
+            Identifier.of(AviCraft.MOD_ID, "myrtle_warbler"),
+            EntityType.Builder.create((EntityType<MyrtleWarblerEntity> entityType, World world) -> new MyrtleWarblerEntity(entityType, world), SpawnGroup.CREATURE)
                     .dimensions(1.0f, 0.6f)
-                    .build(RegistryKey.of(RegistryKeys.ENTITY_TYPE, Identifier.of(AviCraft.MOD_ID, "myrtles_warbler"))));
+                    .build(RegistryKey.of(RegistryKeys.ENTITY_TYPE, Identifier.of(AviCraft.MOD_ID, "myrtle_warbler"))));
 
     public static final EntityType<AmericanRedstartEntity> AMERICANREDSTART = Registry.register(Registries.ENTITY_TYPE,
             Identifier.of(AviCraft.MOD_ID, "american_redstart"),
@@ -65,6 +66,12 @@ public class AviCraftEntities {
             EntityType.Builder.create((EntityType<PaintedRedstartEntity> entityType, World world) -> new PaintedRedstartEntity(entityType, world), SpawnGroup.CREATURE)
                     .dimensions(1.0f, 0.6f)
                     .build(RegistryKey.of(RegistryKeys.ENTITY_TYPE, Identifier.of(AviCraft.MOD_ID, "painted_redstart"))));
+
+    public static final EntityType<LongBilledCurlewEntity> LONGBILLEDCURLEW = Registry.register(Registries.ENTITY_TYPE,
+            Identifier.of(AviCraft.MOD_ID, "long_billed_curlew"),
+            EntityType.Builder.create((EntityType<LongBilledCurlewEntity> entityType, World world) -> new LongBilledCurlewEntity(entityType, world), SpawnGroup.CREATURE)
+                .dimensions(1.5F, 2F)
+                .build(RegistryKey.of(RegistryKeys.ENTITY_TYPE, Identifier.of(AviCraft.MOD_ID, "long_billed_curlew"))));
 
     public static void registerModEntities() {
         AviCraft.LOGGER.info("Registering Mod Entities for " + AviCraft.MOD_ID);
