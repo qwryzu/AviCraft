@@ -16,6 +16,7 @@ public class AviCraftSounds {
     public static final SoundEvent MAGNOLIA_WARBLER_SONG = registerSoundEvent("magnolia_warbler_song");
     public static final SoundEvent PAINTED_REDSTART_SONG =  registerSoundEvent("painted_redstart_song");
     public static final SoundEvent AMERICAN_REDSTART_SONG = registerSoundEvent("american_redstart_song");
+    public static final SoundEvent LONG_BILLED_CURLEW_CALL =  registerSoundEvent("long_billed_curlew_call");
 
     private static SoundEvent registerSoundEvent(String name) {
         Identifier id = Identifier.of(AviCraft.MOD_ID, name);

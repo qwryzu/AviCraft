@@ -7,10 +7,12 @@ import net.minecraft.entity.passive.PassiveEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
 import net.qwryzu.avicraft.AviCraft;
 import net.qwryzu.avicraft.entity.AviCraftEntities;
+import net.qwryzu.avicraft.sound.AviCraftSounds;
 import org.jetbrains.annotations.Nullable;
 
 public class LongBilledCurlewEntity extends ShorebirdEntity {
@@ -33,6 +35,11 @@ public class LongBilledCurlewEntity extends ShorebirdEntity {
     @Override
     public boolean isBreedingItem(ItemStack stack) {
         return stack.isOf(Items.COD);
+    }
+
+    @Override
+    public SoundEvent getAmbientSound() {
+        return AviCraftSounds.LONG_BILLED_CURLEW_CALL;
     }
 
 

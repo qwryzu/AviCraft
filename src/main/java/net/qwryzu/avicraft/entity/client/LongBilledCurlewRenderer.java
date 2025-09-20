@@ -47,7 +47,8 @@ public class LongBilledCurlewRenderer<T extends LongBilledCurlewEntity> extends 
 
         // Update animation states
         longBilledCurlewEntityRenderState.idleAnimationState.copyFrom(longBilledCurlewEntity.idleAnimationState);
+        longBilledCurlewEntityRenderState.idleAnimationState2.copyFrom(longBilledCurlewEntity.idleAnimationState2);
         longBilledCurlewEntityRenderState.flyingAnimationState.copyFrom(longBilledCurlewEntity.flyingAnimationState);
-        longBilledCurlewEntityRenderState.takeoffAnimationState.copyFrom(longBilledCurlewEntity.takeoffAnimationState);
+        longBilledCurlewEntityRenderState.walkingAnimationState.copyFrom(longBilledCurlewEntity.walkingAnimationState);
     }
 }

@@ -70,5 +70,14 @@
         "stream": false
       }
     ]
+  },
+  "long_billed_curlew_call": {
+    "subtitle": "sounds.avicraft.long_billed_curlew_call",
+    "sounds": [
+      {
+        "name": "avicraft:long_billed_curlew_call",
+        "stream": false
+      }
+    ]
   }
 }

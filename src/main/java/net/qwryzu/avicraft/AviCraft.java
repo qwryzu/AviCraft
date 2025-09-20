@@ -36,6 +36,7 @@ public class AviCraft implements ModInitializer {
         FabricDefaultAttributeRegistry.register(AviCraftEntities.MYRTLEWARBLER, MangroveWarblerEntity.createAttributes());
         FabricDefaultAttributeRegistry.register(AviCraftEntities.AMERICANREDSTART, MangroveWarblerEntity.createAttributes());
         FabricDefaultAttributeRegistry.register(AviCraftEntities.PAINTEDREDSTART, MangroveWarblerEntity.createAttributes());
+        FabricDefaultAttributeRegistry.register(AviCraftEntities.LUCYSWARBLER, LucysWarblerEntity.createAttributes());
 
         FabricDefaultAttributeRegistry.register(AviCraftEntities.LONGBILLEDCURLEW, LongBilledCurlewEntity.createAttributes());
 	}

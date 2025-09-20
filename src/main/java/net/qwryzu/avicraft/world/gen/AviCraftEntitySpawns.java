@@ -9,6 +9,9 @@ import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.world.Heightmap;
 import net.minecraft.world.biome.BiomeKeys;
 import net.qwryzu.avicraft.entity.AviCraftEntities;
+import net.qwryzu.avicraft.entity.client.LongBilledCurlewAnimations;
+import net.qwryzu.avicraft.entity.custom.shorebirds.LongBilledCurlewEntity;
+import net.qwryzu.avicraft.entity.custom.warblers.LucysWarblerEntity;
 
 public class AviCraftEntitySpawns {
     public static void addSpawns() {
@@ -78,6 +81,30 @@ public class AviCraftEntitySpawns {
 
         SpawnRestriction.register(AviCraftEntities.MANGROVEWARBLER, SpawnLocationTypes.ON_GROUND,
                 Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, AnimalEntity::isValidNaturalSpawn);
+
+        // Lucy's Warbler
+        BiomeModifications.addSpawn(BiomeSelectors.includeByKey(
+                BiomeKeys.DESERT,
+                BiomeKeys.BADLANDS,
+                BiomeKeys.ERODED_BADLANDS
+            ),
+            SpawnGroup.CREATURE, AviCraftEntities.LUCYSWARBLER, 30, 2, 4);
+
+        SpawnRestriction.register(AviCraftEntities.LUCYSWARBLER, SpawnLocationTypes.ON_GROUND,
+                Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, LucysWarblerEntity::canLucysWarblerSpawn);
+
+        // Long-billed Curlew
+        BiomeModifications.addSpawn(BiomeSelectors.includeByKey(
+                        BiomeKeys.RIVER,
+                        BiomeKeys.BEACH,
+                        BiomeKeys.SWAMP,
+                        BiomeKeys.MANGROVE_SWAMP
+                ),
+                SpawnGroup.CREATURE, AviCraftEntities.LONGBILLEDCURLEW, 30, 2, 4);
+
+        SpawnRestriction.register(AviCraftEntities.LONGBILLEDCURLEW, SpawnLocationTypes.ON_GROUND,
+                Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, LongBilledCurlewEntity::canShorebirdSpawn);
+
 
     }
 }

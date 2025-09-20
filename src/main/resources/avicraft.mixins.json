@@ -3,7 +3,7 @@
 	"package": "net.qwryzu.avicraft.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"AviCraftMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

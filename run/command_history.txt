@@ -1,12 +1,3 @@
-/summon avicraft:painted_redstart
-/summon avicraft:american_redstart
-/summon avicraft:myrtle_warbler
-/time set 0
-/summon avicraft:red_faced_warbler
-/time set 0
-/summon avicraft:painted_redstart
-/time set 0
-/summon avicraft:magnolia_warbler
 /summon avicraft:american_redstart
 /summon avicraft:
 /summon avicraft:american_redstart
@@ -48,3 +39,12 @@
 /summon avicraft:black_throated_blue_warblert
 /summon avicraft:black_throated_blue_warbler
 /time set 23500
+/summon avicraft:long_billed_curlew
+/summon avicraft:lucys_warbler
+/tp @p 29.5 65.0 194.5
+/summon avicraft:long_billed_curlew
+/summon avicraft:yellow_warbler
+/time set 23500
+/summon avicraft:long_billed_curlew
+/summon avicraft:long_billed_curlewt
+/summon avicraft:long_billed_curlew

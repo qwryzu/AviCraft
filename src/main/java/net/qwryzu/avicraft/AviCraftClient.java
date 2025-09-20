@@ -3,6 +3,7 @@ package net.qwryzu.avicraft;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.minecraft.client.render.entity.EntityRenderer;
 import net.qwryzu.avicraft.entity.AviCraftEntities;
 import net.qwryzu.avicraft.entity.client.LongBilledCurlewModel;
 import net.qwryzu.avicraft.entity.client.LongBilledCurlewRenderer;
@@ -27,6 +28,7 @@ public class AviCraftClient implements ClientModInitializer {
         EntityRendererRegistry.register(AviCraftEntities.MYRTLEWARBLER, WarblerRenderer::new);
         EntityRendererRegistry.register(AviCraftEntities.AMERICANREDSTART, WarblerRenderer::new);
         EntityRendererRegistry.register(AviCraftEntities.PAINTEDREDSTART, WarblerRenderer::new);
+        EntityRendererRegistry.register(AviCraftEntities.LUCYSWARBLER, WarblerRenderer::new);
 
         // Register the long-billed curlew model
         EntityModelLayerRegistry.registerModelLayer(LongBilledCurlewModel.LONG_BILLED_CURLEW_LAYER, LongBilledCurlewModel::getTexturedModelData);

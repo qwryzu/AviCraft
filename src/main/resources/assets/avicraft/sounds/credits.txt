@@ -1,3 +1,5 @@
+Warblers
+
 XC892934 - Audubons_Warbler
 XC616682 - Yellow Warbler
 XC653335 - Black-throated Blue Warbler
@@ -5,3 +7,6 @@ XC1014769 - Myrtle Warbler
 XC1007695 - Red-faced Warbler
 XC1014780 - Magnolia Warbler
 XC578533 - Painted Redstart
+
+Shore Birds
+XC482149 - Long-billed Curlew

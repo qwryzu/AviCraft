@@ -6,7 +6,8 @@ import net.minecraft.util.Identifier;
 
 public class LongBilledCurlewEntityRenderState extends LivingEntityRenderState{
     public final AnimationState idleAnimationState = new AnimationState();
+    public final AnimationState idleAnimationState2 = new AnimationState();
     public final AnimationState flyingAnimationState = new AnimationState();
-    public final AnimationState takeoffAnimationState = new AnimationState();
+    public final AnimationState walkingAnimationState = new AnimationState();
     public Identifier texture;
 }
