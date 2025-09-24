@@ -6,7 +6,7 @@ import net.minecraft.client.render.entity.animation.Keyframe;
 import net.minecraft.client.render.entity.animation.Transformation;
 
 public class LongBilledCurlewAnimations {
-    public static final AnimationDefinition IDLE = AnimationDefinition.Builder.create(7f)
+    public static final AnimationDefinition IDLE = AnimationDefinition.Builder.create(7f).looping()
             .addBoneAnimation("right_leg",
                     new Transformation(Transformation.Targets.MOVE_ORIGIN,
                             new Keyframe(0f, AnimationHelper.createTranslationalVector(0f, 0f, 0f),
@@ -63,7 +63,7 @@ public class LongBilledCurlewAnimations {
                                     Transformation.Interpolations.LINEAR),
                             new Keyframe(7f, AnimationHelper.createRotationalVector(0f, 0f, 0f),
                                     Transformation.Interpolations.LINEAR))).build();
-    public static final AnimationDefinition FLAP = AnimationDefinition.Builder.create(1.5f)
+    public static final AnimationDefinition FLAP = AnimationDefinition.Builder.create(1.5f).looping()
             .addBoneAnimation("right_leg",
                     new Transformation(Transformation.Targets.MOVE_ORIGIN,
                             new Keyframe(0f, AnimationHelper.createTranslationalVector(0f, 0f, 0f),

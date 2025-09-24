@@ -11,6 +11,7 @@ import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.World;
 import net.qwryzu.avicraft.AviCraft;
+import net.qwryzu.avicraft.ai.LargeBirdFlightMoveControl;
 import net.qwryzu.avicraft.entity.AviCraftEntities;
 import net.qwryzu.avicraft.sound.AviCraftSounds;
 import org.jetbrains.annotations.Nullable;
@@ -24,6 +25,10 @@ public class LongBilledCurlewEntity extends ShorebirdEntity {
 
     public Identifier getTextureLocation() {
         return TEXTURE;
+    }
+
+    public LargeBirdFlightMoveControl setFlightControlSpeed() {
+        return new LargeBirdFlightMoveControl(this, 15, true, 6F, 1.2F, 0.2F, 1.8F);
     }
 
     @Nullable
@@ -41,6 +46,5 @@ public class LongBilledCurlewEntity extends ShorebirdEntity {
     public SoundEvent getAmbientSound() {
         return AviCraftSounds.LONG_BILLED_CURLEW_CALL;
     }
-
 
 }
